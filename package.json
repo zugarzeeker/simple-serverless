@@ -1,0 +1,19 @@
+{
+  "name": "simple-serverless",
+  "version": "1.0.0",
+  "description": "A serverless boilerplate for starter.",
+  "main": "lambda.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zugarzeeker/simple-serverless.git"
+  },
+  "author": "Supanut Apikulvanich <supanut.a@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zugarzeeker/simple-serverless/issues"
+  },
+  "homepage": "https://github.com/zugarzeeker/simple-serverless#readme"
+}

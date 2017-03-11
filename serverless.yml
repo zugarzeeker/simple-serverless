@@ -1,0 +1,18 @@
+service: simple-serverless-api
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  region: ap-southeast-1
+  stage: production
+  memorySize: 128
+  timeout: 2
+
+functions:
+  webhook:
+    handler: lambda.webhook
+    events:
+      - http:
+          path: webhook
+          method: post
+          cors: true
